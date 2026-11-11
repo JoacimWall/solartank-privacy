@@ -45,7 +45,7 @@
 <!-- ============================================================ -->
 <span class="lang-label">English</span>
 <h1>Privacy Policy</h1>
-<p class="subtitle">SolarTank &nbsp;|&nbsp; Last updated: June 2026</p>
+<p class="subtitle">SolarTank &nbsp;|&nbsp; Last updated: November 2026</p>
 
 <h2>1. Introduction</h2>
 <p>
@@ -87,8 +87,8 @@
 
 <h2>5. Subscriptions — RevenueCat</h2>
 <p>
-  Subscription purchases (for example "SolarTank Pro") are processed through Apple's
-  App Store and managed using <strong>RevenueCat</strong>, which validates purchases and tracks
+  SolarTank is currently free. If optional subscriptions (for example "SolarTank Pro") are offered,
+  purchases are processed through Apple's App Store or Google Play and managed using <strong>RevenueCat</strong>, which validates purchases and tracks
   entitlement status. RevenueCat receives purchase and subscription events together with an
   anonymous app-generated identifier. It does not receive your energy credentials or charging data.
 </p>
@@ -97,11 +97,14 @@
 <h2>6. External API Connections</h2>
 <p>The app connects <strong>only</strong> to the services that you configure yourself:</p>
 <ul>
-  <li>Tibber API (<code>app.tibber.com</code>) — electricity spot prices and vehicle state of charge</li>
+  <li>Tibber (<code>thewall.tibber.com</code> for sign-in, <code>data-api.tibber.com</code>) — optional: electricity prices, live power from Tibber Pulse and vehicle state of charge</li>
+  <li>elprisetjustnu.se (<code>www.elprisetjustnu.se</code>) — public spot prices for your price area; no account and no personal data is sent</li>
   <li>Easee Cloud API (<code>api.easee.com</code>) — charger control and status</li>
   <li>Zaptec Cloud API (<code>api.zaptec.com</code>) — charger control and status</li>
 </ul>
 <p>Apart from the anonymous error reporting (Section 4) and subscription handling (Section 5), no other outbound connections exist. The developer's servers are never contacted.</p>
+<h3>Local network (optional)</h3>
+<p>If you turn on "Allow clients", the app can be controlled from your other devices on the same Wi-Fi. Devices find each other on the local network (Bonjour) and pair with an end-to-end key exchange that you approve on the server. Charging state and commands travel only inside your local network, encrypted with the pairing key; integration credentials never leave the device that runs SolarTank.</p>
 
 <h2>7. iOS App Tracking Transparency</h2>
 <p>
@@ -148,7 +151,7 @@
 <div lang="sv">
 <span class="lang-label">Svenska</span>
 <h1>Integritetspolicy</h1>
-<p class="subtitle">SolarTank &nbsp;|&nbsp; Senast uppdaterad: juni 2026</p>
+<p class="subtitle">SolarTank &nbsp;|&nbsp; Senast uppdaterad: november 2026</p>
 
 <h2>1. Introduktion</h2>
 <p>
@@ -190,7 +193,8 @@
 
 <h2>5. Prenumerationer — RevenueCat</h2>
 <p>
-  Prenumerationsköp (till exempel "SolarTank Pro") hanteras via Apples App Store och administreras
+  SolarTank är för närvarande gratis. Om valfria prenumerationer (till exempel "SolarTank Pro") erbjuds
+  hanteras köpen via Apples App Store eller Google Play och administreras
   med <strong>RevenueCat</strong>, som validerar köp och håller reda på prenumerationsstatus.
   RevenueCat tar emot köp- och prenumerationshändelser tillsammans med en anonym, appgenererad
   identifierare. Tjänsten tar inte emot dina energiuppgifter eller laddningsdata.
@@ -200,11 +204,14 @@
 <h2>6. Externa API-anslutningar</h2>
 <p>Appen ansluter <strong>enbart</strong> till de tjänster du själv konfigurerat:</p>
 <ul>
-  <li>Tibber API (<code>app.tibber.com</code>) — elspotpriser och bilens laddningsnivå</li>
+  <li>Tibber (<code>thewall.tibber.com</code> för inloggning, <code>data-api.tibber.com</code>) — valfritt: elpriser, live-effekt från Tibber Pulse och bilens laddnivå</li>
+  <li>elprisetjustnu.se (<code>www.elprisetjustnu.se</code>) — öppna spotpriser för ditt elområde; inget konto och ingen personlig data skickas</li>
   <li>Easee Cloud API (<code>api.easee.com</code>) — styrning och status för laddbox</li>
   <li>Zaptec Cloud API (<code>api.zaptec.com</code>) — styrning och status för laddbox</li>
 </ul>
 <p>Utöver den anonyma felrapporteringen (avsnitt 4) och prenumerationshanteringen (avsnitt 5) förekommer inga andra utgående anslutningar. Utvecklarens servrar kontaktas aldrig.</p>
+<h3>Lokalt nätverk (valfritt)</h3>
+<p>Slår du på "Tillåt klienter" kan appen styras från dina andra enheter i samma wifi. Enheterna hittar varandra i det lokala nätverket (Bonjour) och paras ihop med ett krypterat nyckelutbyte som du godkänner på servern. Laddstatus och kommandon går bara inom ditt lokala nätverk, krypterade med parningsnyckeln; inloggningsuppgifter till integrationerna lämnar aldrig enheten som kör SolarTank.</p>
 
 <h2>7. iOS App Tracking Transparency</h2>
 <p>
